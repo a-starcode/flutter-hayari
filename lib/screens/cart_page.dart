@@ -76,11 +76,8 @@ class _CartPageState extends State<CartPage> {
                               Map _productsMap =
                                   productsSnapshot.data!.data() as Map;
 
-                    
-                                _cart_total += _productsMap['price'];
-                                print(_cart_total);
-                                
-                              
+                              _cart_total += _productsMap['price'];
+                              print(_cart_total);
 
                               return Padding(
                                 padding: const EdgeInsets.only(
@@ -165,11 +162,11 @@ class _CartPageState extends State<CartPage> {
             },
           ),
           CustomActionBar(
-            title: "Cart \$${_cart_total}",
+            title: "Cart",
             hasBackArrow: true,
           ),
         ],
-      ),      
+      ),
     );
   }
 }
