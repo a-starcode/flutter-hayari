@@ -1,2 +1,2 @@
-# flutter-hayari-app
- E commerce fashion app made in flutter
+# Hayari
+ Practice e-commerce fashion app made in flutter with user authentication and add to / remove from cart functionaties
